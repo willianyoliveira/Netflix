@@ -1,0 +1,57 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: url("/img/backdrop-flash.jpg");
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header .logo{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 110px;
+}
+header nav a{
+    text-decoration: none;
+    color: lavenderblush;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #AAAA;
+}
+
+/*Filme principal*/
+main .titulo{
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 650px;
+}
+main .sinopse{
+    font-size: 25px; 
+    margin-left: 100px;
+    text-align: justify; 
+}
+main .posicao-filme{
+    align-items: center;
+    font-size: 28px;
+    margin-left: 100px;
+}
+.top10{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
