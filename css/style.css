@@ -18,16 +18,31 @@ header .container{
     flex-direction: row;
     align-items: center;
 }
+
 header .logo{
-    margin: 10px;
+    margin: 5px;
     margin-left: 30px;
     margin-right: 20px;
     width: 110px;
 }
+
 header nav a{
+    flex-direction: row;
     text-decoration: none;
     color: lavenderblush;
     margin-right: 10px;
+}
+header .nav-1{
+    flex-direction: row;
+    text-decoration: none;
+    color: lavenderblush;
+    margin-right: 10px;
+}
+header .nav-2{
+    flex-direction: row;
+    text-decoration: none;
+    color: lavenderblush;
+    margin-left: 1000px;
 }
 
 header nav a:hover{
@@ -35,13 +50,24 @@ header nav a:hover{
 }
 
 /*Filme principal*/
+.filme-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 main .titulo{
-    margin-top: 80px;
-    margin-left: 60px;
+    margin-left: 20px;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 0;
+    height: 400px;
     width: 650px;
 }
 main .sinopse{
+    margin-top: 20px;
     font-size: 25px; 
+    width: 600px;
     margin-left: 100px;
     text-align: justify; 
 }
@@ -51,7 +77,47 @@ main .posicao-filme{
     margin-left: 100px;
 }
 .top10{
-    margin-left: 10px;
     width: 35px;
     height: 35px;
+}
+.play{
+    width: 35px;
+    height: 35px;
+}
+.botao-assistir{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 10px;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    transition: .3s;
+    border-radius: 5px;
+    
+} 
+.botao-assistir:hover{
+    background-color: #AAAA;
+}
+.botao-informacao{
+    margin-top: 20px;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    padding: 15px 30px;
+    background-color: rgba(98, 96, 96, 0.733);
+    color: white;
+    transition: .3s;
+    border-radius: 5px;
+    
+}
+
+.botao-informacao:hover{
+    background-color: rgba(119, 115, 115, 0.431);
+    
+}
+.fa-solid fa-play{
+    color: #141414;
 }

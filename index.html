@@ -8,23 +8,32 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <script src="https://kit.fontawesome.com/3cf5b840ed.js" crossorigin="anonymous"></script>
     <title>Netflix</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-        <a href="#">
-            <img class="logo" src="img/netflix-nome.png">
-        </a>
-        <nav>
-            <a href="#">Início</a>
-            <a href="#"> Séries</a>
-            <a href="#">Filmes</a>
-            <a href="#">Bombando</a>
-            <a href="#">Minha lista</a>
-        </nav>
-    </div>
+
+            <a href="#">
+                <img class="logo" src="img/netflix-nome.png">
+            </a>
+            <nav class="nav-1">
+                <a href="#">Início</a>
+                <a href="#"> Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha lista</a>
+            </nav>
+            <nav class="nav-2" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+            </nav>
+
+        </div>
+
     </header>
     <main>
         <div class="filme-principal">
@@ -32,12 +41,24 @@
                 <img class="titulo" src="img/Flash-Logo.png">
                 <p class="posicao-filme">
                     <img class="top10" src="img/top10.png">
-                    <b>Top 7 em Séries hoje</b>   
+                    <b class="text-button">Top 7 em séries hoje</b>
                 </p>
                 <p class="sinopse">
-                     O investigador CSI Barry Allen é atingido por um raio e entra em coma. Meses depois, ele desperta com o poder da super velocidade
+                    O investigador CSI Barry Allen é atingido por um raio e entra em coma. Meses depois, ele desperta
+                    com o poder da super velocidade
                 </p>
+                <button role="button" class="botao-assistir">
+                    <i class="fa-solid fa-play"></i>
+                    <b>Assistir</b>
+                </button>
+                <button role="button" class="botao-informacao">
+                    <div class="icone"><i class="fa-solid fa-circle-info"></i></div>
+                    <b class="text-button-informacao">
+
+                        Mais informações</b>
+                </button>
             </div>
+
         </div>
     </main>
 </body>
