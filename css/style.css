@@ -17,6 +17,7 @@ header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 header .logo{
@@ -31,6 +32,8 @@ header nav a{
     text-decoration: none;
     color: lavenderblush;
     margin-right: 10px;
+    justify-content: center;
+    
 }
 header .nav-1{
     flex-direction: row;
@@ -42,7 +45,7 @@ header .nav-2{
     flex-direction: row;
     text-decoration: none;
     color: lavenderblush;
-    margin-left: 1000px;
+    margin-left: 950px;
 }
 
 header nav a:hover{
@@ -84,6 +87,15 @@ main .posicao-filme{
     width: 35px;
     height: 35px;
 }
+.fa{
+   margin-right: 25px;
+}
+.perfil{
+    padding-bottom: 0;
+    height: 24px;
+    width: 30px;
+    justify-content: center;
+}
 .botao-assistir{
     margin-top: 20px;
     margin-left: 100px;
@@ -96,6 +108,11 @@ main .posicao-filme{
     color: black;
     transition: .3s;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
     
 } 
 .botao-assistir:hover{
@@ -103,6 +120,7 @@ main .posicao-filme{
 }
 .botao-informacao{
     margin-top: 20px;
+    justify-content: space-between;
     font-size: 20px;
     height: 40px;
     border: none;
@@ -111,7 +129,9 @@ main .posicao-filme{
     color: white;
     transition: .3s;
     border-radius: 5px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .botao-informacao:hover{
@@ -120,4 +140,10 @@ main .posicao-filme{
 }
 .fa-solid fa-play{
     color: #141414;
+}
+.container-2{
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+
 }
